@@ -1,0 +1,13 @@
+import numpy as np
+names = np.array(['Johnny','Mary','Peter','Will','Joe'])
+ages = np.array([34,12,37,5,13])
+heights = np.array([1.76,1.2,1.68,0.5,1.25])
+print("Details of people before sorting: ")
+print("Names: ",names)
+print("Ages : ",ages)
+print("Height : ",heights)
+print("Details of people in sorted order based on their ages: ")
+i = np.argsort(ages)
+print("Names: ",names[i])
+print("Ages : ",ages[i])
+print("Height : ",heights[i ])
